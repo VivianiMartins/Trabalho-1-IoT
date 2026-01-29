@@ -13,10 +13,15 @@ Dependendo da versão da sua placa, pode ser necessário instalar o driver do co
 * **Driver utilizado neste projeto:** `CH9102F`
 * *Nota:* Algumas versões do kit podem utilizar o driver `CP210x`. Verifique o gerenciador de dispositivos caso a porta não apareça.
 
-### 3. Bibliotecas Necessárias
-Instale as seguintes bibliotecas através do **Library Manager** (Gerenciador de Bibliotecas) da Arduino IDE:
+### 3. Gerenciador de placa
+Instale o seguinte gerenciador através do **Board Manager** (Gerenciador de Placas) da Arduino IDE:
 
 * `esp32` by Espressif Systems
+
+
+### 4. Bibliotecas Necessárias
+Instale as seguintes bibliotecas através do **Library Manager** (Gerenciador de Bibliotecas) da Arduino IDE:
+
 * `DHT sensor library` by Adafruit
 * `RoboCore - MMA8452Q` by RoboCore Tecnologia
 
