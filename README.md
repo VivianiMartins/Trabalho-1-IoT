@@ -2,7 +2,7 @@
 
 Este projeto implementa o controle e leitura de sensores (Luminosidade, Temperatura/Umidade e Acelerômetro) utilizando o kit **RoboCore IoT DevKit - LoRaWAN**. Todo o sistema é controlado através de um único botão integrado à placa.
 
-## 📋 Pré-requisitos e Instalação
+## Pré-requisitos e Instalação
 
 ### 1. Ambiente de Desenvolvimento
 É necessário utilizar a **Arduino IDE**. Se você ainda não configurou a placa ESP32 na IDE, siga este tutorial oficial:
@@ -25,14 +25,14 @@ Instale as seguintes bibliotecas através do **Library Manager** (Gerenciador de
 * `DHT sensor library` by Adafruit
 * `RoboCore - MMA8452Q` by RoboCore Tecnologia
 
-> **⚠️ Atenção:** Caso não encontre a biblioteca do acelerômetro (MMA8452Q) no gerenciador:
+> **Atenção:** Caso não encontre a biblioteca do acelerômetro (MMA8452Q) no gerenciador:
 > 1. Baixe o arquivo `.zip` aqui: [RoboCore_MMA8452Q-master.zip](https://github.com/RoboCore/RoboCore_MMA8452Q) (não descompacte).
 > 2. Na IDE, vá em *Sketch > Include Library > Add .ZIP Library*.
 > 3. Para mais detalhes, veja este vídeo a partir de 5:21: [Tutorial de Instalação](https://www.youtube.com/watch?v=h9I0P45_CKY&t=323s).
 
 ---
 
-## ⚙️ Configuração da IDE
+## Configuração da IDE
 
 Para carregar o código na placa, certifique-se de que as configurações em **Tools (Ferramentas)** estejam corretas:
 
@@ -42,7 +42,7 @@ Para carregar o código na placa, certifique-se de que as configurações em **T
 
 ---
 
-## 🎮 Como Usar
+## Como Usar
 
 O sistema é operado inteiramente pelo botão de uso geral da placa (Pino 4).
 
@@ -55,7 +55,7 @@ O sistema é operado inteiramente pelo botão de uso geral da placa (Pino 4).
 | **3 Cliques** | Ativa sensor de Movimento | **Acelerômetro** |
 | **Segurar** (Long Press) | **DESATIVAR / RESETAR** | *Nenhum (Modo Ocioso)* |
 
-### 💡 Feedback Visual (LED)
+### Feedback Visual (LED)
 
 O LED da placa ESP32 indica o estado de operação do sistema:
 
